@@ -11,11 +11,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure.Data", "infr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure.Ioc", "infrastructure.Ioc", "{021E4192-783C-4C78-BCD2-ECC0C578BD31}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{ABE1A5E7-5F9A-474A-9AC2-01506253A574}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "potentiation", "potentiation", "{ABE1A5E7-5F9A-474A-9AC2-01506253A574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWIMMER.CORE", "SWIMMER.CORE\SWIMMER.CORE.csproj", "{18E8983D-E475-47DF-B034-31605FC69419}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18E8983D-E475-47DF-B034-31605FC69419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E8983D-E475-47DF-B034-31605FC69419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E8983D-E475-47DF-B034-31605FC69419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E8983D-E475-47DF-B034-31605FC69419}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18E8983D-E475-47DF-B034-31605FC69419} = {ABE1A5E7-5F9A-474A-9AC2-01506253A574}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8AD37A5-C5A0-488C-A8A0-2A15537F11B9}
