@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure.Data", "infr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure.Ioc", "infrastructure.Ioc", "{021E4192-783C-4C78-BCD2-ECC0C578BD31}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{D4F3B000-DCB2-4076-A20A-1777D394CBA2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ul", "Ul", "{9144912D-BD21-4E3F-8489-CC122ED9F5A1}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
